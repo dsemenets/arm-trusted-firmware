@@ -11,7 +11,7 @@
 
 #include <platform_def.h>
 
-#define RPI_SHM_BASE		0x2201f000
+#define RPI_SHM_BASE		0x1ffc00000
 #define RPI_SHM0_BASE	RPI_SHM_BASE
 
 static struct scmi_msg_channel scmi_channel[] = {
